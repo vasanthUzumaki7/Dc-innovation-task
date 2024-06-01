@@ -33,3 +33,17 @@ nav h1,h3{
   border: 5px solid black;
   border-top: none;
 }
+.service-container {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 70vh;
+ border: 5px solid black;
+ border-top: none;
+}
+.service-container input{
+  width: 250px;
+}
+.service-container h1{
+  margin-bottom: 20px;
+}

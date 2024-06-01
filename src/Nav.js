@@ -8,7 +8,8 @@ const Nav = () => {
       <div className='nav-div'>
         <h3><Link to="/" style={{textDecoration:"none"}}>Home</Link></h3>
         <h3><Link to="/about" style={{textDecoration:"none"}}>About</Link></h3>
-        <h3><Link to="/content" style={{textDecoration:"none"}}>Content</Link></h3>
+        <h3><Link to="/contact" style={{textDecoration:"none"}}>Contact</Link></h3>
+        <h3><Link to="/service" style={{textDecoration:"none"}}>Service</Link></h3>
       </div>
     </nav>
   );
