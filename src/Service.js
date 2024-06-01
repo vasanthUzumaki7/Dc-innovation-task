@@ -11,6 +11,7 @@ const Service = () => {
       <input type="text" />
       <p>Government Amount</p>
       <input type="text" />
+      <button>Add Service</button>
     </div>
     </div>
   )
