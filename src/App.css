@@ -90,7 +90,7 @@ nav h1,h3{
 }
 
 .users-container div p{
-  width: 250px;
+  max-width: 250px;
   margin-bottom: 10px;
 }
 .users-container div div{
@@ -102,3 +102,7 @@ nav h1,h3{
   align-items: center;
   flex-direction: column;
 }
+
+/* @media only screen and (max-width: 500px) {
+  
+} */

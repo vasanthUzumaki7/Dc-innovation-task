@@ -49,7 +49,7 @@ const Users = () => {
                     <div key={index}>
                         <p>Name: {user.name}</p><br />
                         <p>Username: {user.username} </p><br />
-                        <p style={{width:"300px"}}>Email: {user.email} </p><br />
+                        <p>Email: {user.email} </p><br />
                         <p>City: {user.city}</p> 
                     </div>
                 ))}
