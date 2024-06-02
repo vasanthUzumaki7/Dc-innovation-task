@@ -6,6 +6,7 @@ import Nav from './Nav';
 import About from './About';
 import Service from './Service';
 import Form from './Form'
+import Users from './Users';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/service' element={<Service/>} />
           <Route path='/account' element={<Form/>} />
+          <Route path='/users' element={<Users/>} />
         </Routes>
       </BrowserRouter>
     </div>

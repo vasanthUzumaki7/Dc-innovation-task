@@ -10,7 +10,9 @@ const Nav = () => {
         <h3><Link to="/about" style={{textDecoration:"none"}}>About</Link></h3>
         <h3><Link to="/contact" style={{textDecoration:"none"}}>Contact</Link></h3>
         <h3><Link to="/service" style={{textDecoration:"none"}}>Service</Link></h3>
+        <h3><Link to="/users" style={{textDecoration:"none"}}>Users</Link></h3>
       </div>
+      <button><Link to='/account' style={{textDecoration:"none",color:"white"}}> Create Account</Link></button>
     </nav>
   );
 }
