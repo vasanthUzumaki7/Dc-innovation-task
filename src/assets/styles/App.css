@@ -103,6 +103,33 @@ nav h1,h3{
   flex-direction: column;
 }
 
+.billing-head{
+  display: flex;
+  justify-content: space-evenly;
+ margin: 20px 0px 20px 0px;
+}
+.billing-head form input{
+  height: 37px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.billing-table{
+  width: 90%;
+  height: 40vh;
+}
+.billing-table thead td{
+  font-weight: bold;
+  background-color: rgb(150, 146, 146);
+  padding: 10px;
+}
+.billing-container{
+  display: flex;
+  justify-content: center;
+}
+.billing-table tbody td{
+  background-color: rgb(209, 203, 203); 
+  padding: 10px;
+}
 /* @media only screen and (max-width: 500px) {
   
 } */

@@ -1,25 +1,28 @@
-import './App.css';
+import './assets/styles/App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact';
-import Nav from './Nav';
-import About from './About';
-import Service from './Service';
-import Form from './Form'
-import Users from './Users';
+import Contact from './components/Contact';
+import Nav from './components/Nav';
+import About from './components/About';
+import Service from './components/Service';
+import Form from './components/Form'
+import Users from './components/Users';
+import Home from './components/Home';
+import Billing from './components/Billing';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Nav />
+        
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />}/>
+          <Route path='/about' element={<About />}/>
           <Route path='/service' element={<Service/>} />
           <Route path='/account' element={<Form/>} />
-          <Route path='/users' element={<Users/>} />
+          <Route path='/users' element={<Users/>} />  
+          <Route path='/billing-details' element={<Billing/>} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Loader from './loader/Loader';
+import Loader from '../loader/Loader';
 
 const Users = () => {
     const [users, setUsers] = useState([]);
