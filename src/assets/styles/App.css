@@ -162,6 +162,51 @@ nav h1,h3{
   background-color: rgb(209, 203, 203); 
   padding: 10px;
 }
+
+.policylist-head button{
+  margin-right: 10px;
+}
+.policylist-head input{
+  width: 150px;
+  height: 25px;
+  padding-left: 10px;
+}
+.policylist-head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.policylist-table{
+  width: 80%;
+  margin-top: 20px;
+}
+.policylist-table thead td{
+  font-weight: bold;
+  background-color: rgb(150, 146, 146);
+  padding: 10px;
+}
+.policylist-table tbody td{
+  background-color: rgb(209, 203, 203); 
+  padding: 10px;
+}
+.policylist-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.policy-input-container div input{
+  width: 350px;
+}
+
+.policy-input-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* @media only screen and (max-width: 500px) {
   
 } */

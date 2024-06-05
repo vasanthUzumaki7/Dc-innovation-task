@@ -12,6 +12,7 @@ const Nav = () => {
         <h3><Link to="/servicelist" style={{textDecoration:"none"}}>Service</Link></h3>
         <h3><Link to="/users" style={{textDecoration:"none"}}>Users</Link></h3>
         <h3><Link to="/billing-details" style={{textDecoration:"none",color:"black"}}>Billings</Link></h3>
+        <h3><Link to="/policylist" style={{textDecoration:"none"}}>Policy Details</Link></h3>
       </div>
       <button><Link to='/account' style={{textDecoration:"none",color:"white"}}> Create Account</Link></button>
     </nav>
