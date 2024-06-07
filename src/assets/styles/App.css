@@ -206,7 +206,85 @@ nav h1,h3{
   flex-direction: column;
   align-items: center;
 }
+.role-container table{
+  width: 80%;
+}
+.role-container table thead td{
+  background-color: rgb(150, 148, 148);
+  height: 40px;
+  padding: 10px;
 
+}
+.role-container table tbody td{
+  background-color: rgb(196, 191, 191);
+  padding:0px 0px 10px 10px;
+}
+.role-container table tbody td button,.role-container button{
+  background-color: rgb(70, 187, 70);
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+.role-container div{
+  display: flex;
+  justify-content: space-between;
+  min-width: 500px;
+  margin-bottom: 20px;
+}
+.role-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.roleAdd-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.roleAdd-container input{
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.roleAdd-container select{
+  width: 265px;
+  height: 30px;
+}
+.roleAdd-container button{
+  width: 265px;
+  color: white;
+  background-color: green;
+  outline: none;
+  border: none;
+}
+.debt-container table{
+width: 90%;
+}
+.debt-container h1{
+  margin:20px 0px 20px 70px;
+  align-self:self-start;
+}
+.debt-container table td{
+  background-color: rgb(150, 148, 148);
+  height: 30px;
+  font-size: 20px;
+  color: rgb(53, 52, 52);
+  padding: 10px;
+}
+.debt-container table thead td{
+  color: black;
+  font-size:25px ;
+}
+.debt-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 /* @media only screen and (max-width: 500px) {
   
 } */
