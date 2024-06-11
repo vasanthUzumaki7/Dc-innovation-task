@@ -30,20 +30,51 @@ nav h1,h3{
   margin:0px 10px 0px 10px;
   cursor: pointer;
 }
-.icon{
-  width: 200px;
-  height: 200px;
-}
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 70vh;
-  border: 5px solid black;
-  border-top: none;
+.home-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
+.home-head {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between the child divs */
+}
+
+.home-head div {
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    min-width: 200px;
+    
+}
+
+.home-logo {
+    width: 30px;
+    height: 30px;
+}
+.home-container table{
+ box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+ max-width: 90%;
+ margin-top: 20px;
+}
+.home-container table tr td{
+  padding: 10px;
+}
+.home-container table tr:nth-child(even){
+  background-color: rgb(179, 177, 177);
+}
+.home-container table tr:nth-child(odd){
+  background-color: rgb(231, 228, 228);
+}
 .service-container {
   display: flex;
  justify-content: center;
@@ -284,6 +315,67 @@ width: 90%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.profile-page-head{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ box-shadow: 0 0 15px rgba(0,0,0,0.3);
+ padding: 20px 0px 20px 0px;
+ margin: 20px 0px 20px 0px;
+ width: 600px;
+ border-radius: 5px;
+ background-color: white;
+}
+.profile-page-head input{
+  width: 500px;
+  height: 30px;
+  margin-top: 10px;
+}
+.profile-page-head button{
+  background-color: rgb(61, 61, 201);
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: none;
+}
+.profile-body-logo{
+  width: 30px;
+  height: 30px;
+  color:  rgb(61, 61, 201);
+}
+.profile-page-body div{
+  text-align: center;
+  width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.profile-page-body{
+  display: flex;
+  justify-content: center;
+}
+.profile-page-container{
+  background-color:  rgb(250, 248, 248);
+  height: 70vh;
+}
+.profile-page-button{
+  background-color: rgb(25, 25, 99);
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: none; 
+}
+.profile-page-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /* @media only screen and (max-width: 500px) {
   
